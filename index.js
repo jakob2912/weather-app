@@ -88,6 +88,10 @@ function displayWeatherInfo(data) {
   card.appendChild(humidityDisplay);
   card.appendChild(descriptionDisplay);
   card.appendChild(weatherEmoji);
+
+  //Appear main page 
+  document.querySelector("footer")
+    .classList.remove('invisible');
 }
 
 //Calculate weatherEmoji based on weatherID
